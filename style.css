@@ -75,7 +75,6 @@ body{
 .rightSideBar{
   height: 100%;
   width: 10%; 
-  position: fixed; 
   top: 130px; 
   left: 90%;
   background-color:white;
@@ -86,7 +85,6 @@ body{
 .leftSideBar{
   height: 100%;
   width: 10%;
-  position: fixed;
   top: 130px;
   left: 0%;
   background-color:white;
