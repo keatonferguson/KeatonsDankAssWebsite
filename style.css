@@ -1,7 +1,6 @@
 *{
 	padding:0px;
 	border:0px;
-	margin:0px;
 }
 
 body{
@@ -15,43 +14,54 @@ body{
 
 .container{
 	overflow:hidden;
-	margin-left:15%;
-	margin-right:15%;
 	position:relative;
+	padding:5px;
 }
 
 #main-header{
 	background-color:coral;
 	color:white;
-	height:55px;
-	text-align:center;
-	padding-top:25px;
+	height:100px;
 }
 
 #navbar{
-	background-color:red;
-	height:50px;
+	background-color:coral;
+	float:left;
+	width:150px;
+}
+
+#logo{
+	position:absolute;
+	left:5px;
+	top:10px;
+	margin:0px;
+	padding:0px;
+	text-align:center;
 }
 
 .container h1{
 	position:relative;
-	line-height:3em;
-	text-align:center;
+	left:10%;
+}
+
+.top-header h1{
+	position:absolute;
+	top:5px;
+	left:50%;
 }
 
 #navbar ul{
-	list-style-type:none;
+	list-style:none;
 	text-align:center;
 	vertical-align:center;
 	overflow:hidden;
 
 }
 #navbar li{
+	border:10px;
 	display:block;
 	padding-top:10px;
 	padding-bottom:10px;
-	width:10%;
-	float:left;
 }
 #navbar a{
 	color:white;
@@ -59,6 +69,9 @@ body{
 	background-size:20px 30px;
 	padding-top:15px;
 	padding-bottom:15px;
+	padding-left:35%;
+	padding-right:100%;
+	text-decoration:none;
 }
 
 #navbar a:hover{
@@ -70,26 +83,5 @@ body{
 #navbar a:active{
 	color:black;
 	text-decoration:none;
-}
-
-.rightSideBar{
-  height: 100%;
-  width: 10%; 
-  position: fixed; 
-  top: 130px; 
-  left: 90%;
-  background-color:white;
-  overflow-x: hidden;
-  padding-top: 20px;
-}
-
-.leftSideBar{
-  height: 100%;
-  width: 10%;
-  position: fixed;
-  top: 130px;
-  left: 0%;
-  background-color:white;
-  overflow-x: hidden;
-  padding-top: 20px;
+	
 }
