@@ -54,6 +54,24 @@
             background-color: #fff;
             border: 1px solid #ddd;
         }
+        .image-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        /* Styles for individual images */
+        .image-container img {
+            max-width: 200px;
+            margin: 10px;
+        }
+
+        /* Styles for captions */
+        .image-container figcaption {
+            text-align: center;
+            margin-top: 5px;
+            font-style: italic;
+        }
     </style>
 </head>
 <body>
@@ -65,15 +83,43 @@
             <li><a href="/index.html">Home</a></li>
             <li><a href="pages/research.html">Research</a></li>
             <li><a href="pages/machining.html">Machining</a></li>
-            <li><a href="pages/pct.html">PCT</a></li>
-            <li><a href="pages/leatherwork.html">Leatherwork</a></li>
+            <li><a href="pages/pct.html">Summer Plans</a></li>
             <li><a href="pages/contact.html">Contact</a></li>
         </ul>
     </nav>
     <main>
-        <!-- Content of your subpages goes here -->
-        <p>I'm a specialist at SCIPP, working on the ATLAS Pixels project. My time here in Santa Cruz is running short, sadly, as  I prepare to leave for the Pacific Crest Trail. I hope to update the PCT page with my preparation, and eventually some summation of my experience of the trail.</p>
-        <p>I plan on attending UC Berkeley's Physics P.h.D. program in the fall (unless UC Santa Barbara lets me in, and then I have a difficult decision). </p>
-        <p>Besides building things at work (see research, machining pages), I enjoy building things in my free time (see leatherworking). </p>
+        <p>Most recerntly a specialist at SCIPP (Santa Cruz Institute of Particle Physics), working on the ATLAS Pixels project. My time here in Santa Cruz is running short, sadly,
+            as  I prepare to leave for the Pacific Crest Trail (PCT), or whatever else this summer holds (pending knee problems). See "summer plans". 
+            Regardless of where this summer takes me, I am in desperate need of vacation.</p>
+        <p>I plan on attending UC Berkeley's Physics P.h.D. program in the fall, and am excited to explore new fields with new people in a new place. </p>
+        <p>Besides building things at work (see research, machining pages), I enjoy building things in my free time, which I hope to document here at some point. </p>
+        <p>Current CDs in my car: </p>
+
+        <div class="image-container">
+        <figure>
+            <img src="images/iggy.jpg" alt="Image 1">
+            <figcaption>Iggy Pop's Lust for Life</figcaption>
+        </figure>
+        <figure>
+            <img src="images/stan.jpg" alt="Image 2">
+            <figcaption>Stan Getz' </figcaption>
+        </figure>
+        <figure>
+            <img src="images/mountain.jpg" alt="Image 3">
+            <figcaption>Caption for Image 3</figcaption>
+        </figure>
+        <figure>
+            <img src="images/topgun.jpg" alt="Image 4">
+            <figcaption>Caption for Image 4</figcaption>
+        </figure>
+        <figure>
+            <img src="image5.jpg" alt="Image 5">
+            <figcaption>Caption for Image 5</figcaption>
+        </figure>
+        <figure>
+            <img src="image6.jpg" alt="Image 6">
+            <figcaption>Caption for Image 6</figcaption>
+        </figure>
+    </div>
     </main>
 </body>
